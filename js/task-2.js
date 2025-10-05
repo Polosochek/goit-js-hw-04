@@ -5,7 +5,7 @@ if (Object.values(days).length > 0) {
 for(const day of days){
   totalCalories+=day.calories;
 }
-return totalCalories/7;
+return totalCalories/days.length;
 }
 
 else{
